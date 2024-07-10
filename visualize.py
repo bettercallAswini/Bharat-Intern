@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error
 plt.style.use('bmh')
 
 # Use a raw string to avoid issues with backslashes and read the CSV file
-file_path = r'C:\Users\USER\OneDrive\Desktop\Bharat Intern\HousePrice_Prediction\train.csv'
+file_path = r'C:\Users\USER\OneDrive\Desktop\Bharat Intern\train.csv'
 df = pd.read_csv(file_path)
 
 # Extract data
